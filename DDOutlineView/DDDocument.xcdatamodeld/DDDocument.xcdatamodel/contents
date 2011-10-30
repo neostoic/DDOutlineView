@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11C73" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Group" representedClassName="Group" parentEntity="Node" syncable="YES"/>
+    <entity name="Node" representedClassName="Node" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Node" inverseName="parent" inverseEntity="Node" syncable="YES"/>
+        <relationship name="parent" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Node" inverseName="children" inverseEntity="Node" syncable="YES"/>
+    </entity>
+    <entity name="Root" representedClassName="Root" parentEntity="Group" syncable="YES"/>
+    <elements>
+        <element name="Node" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Root" positionX="160" positionY="192" width="128" height="45"/>
+        <element name="Group" positionX="160" positionY="192" width="128" height="45"/>
+    </elements>
+</model>

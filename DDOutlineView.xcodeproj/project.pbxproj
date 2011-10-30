@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9BA58F145C2D89000D5E0C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9BA58E145C2D89000D5E0C /* Cocoa.framework */; };
+		EE9BA599145C2D89000D5E0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE9BA597145C2D89000D5E0C /* InfoPlist.strings */; };
+		EE9BA59B145C2D89000D5E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA59A145C2D89000D5E0C /* main.m */; };
+		EE9BA59F145C2D89000D5E0C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EE9BA59D145C2D89000D5E0C /* Credits.rtf */; };
+		EE9BA5A2145C2D89000D5E0C /* DDDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA5A1145C2D89000D5E0C /* DDDocument.m */; };
+		EE9BA5A5145C2D89000D5E0C /* DDDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9BA5A3145C2D89000D5E0C /* DDDocument.xib */; };
+		EE9BA5A8145C2D89000D5E0C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9BA5A6145C2D89000D5E0C /* MainMenu.xib */; };
+		EE9BA5AB145C2D89000D5E0C /* DDDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA5A9145C2D89000D5E0C /* DDDocument.xcdatamodeld */; };
+		EE9BA5B3145C2E38000D5E0C /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA5B2145C2E38000D5E0C /* Node.m */; };
+		EE9BA5BC145CD101000D5E0C /* DDOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BA5BB145CD101000D5E0C /* DDOutlineViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE9BA58A145C2D89000D5E0C /* DDOutlineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDOutlineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9BA58E145C2D89000D5E0C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EE9BA591145C2D89000D5E0C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EE9BA592145C2D89000D5E0C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EE9BA593145C2D89000D5E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE9BA596145C2D89000D5E0C /* DDOutlineView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDOutlineView-Info.plist"; sourceTree = "<group>"; };
+		EE9BA598145C2D89000D5E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE9BA59A145C2D89000D5E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE9BA59C145C2D89000D5E0C /* DDOutlineView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDOutlineView-Prefix.pch"; sourceTree = "<group>"; };
+		EE9BA59E145C2D89000D5E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EE9BA5A0145C2D89000D5E0C /* DDDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDDocument.h; sourceTree = "<group>"; };
+		EE9BA5A1145C2D89000D5E0C /* DDDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDDocument.m; sourceTree = "<group>"; };
+		EE9BA5A4145C2D89000D5E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DDDocument.xib; sourceTree = "<group>"; };
+		EE9BA5A7145C2D89000D5E0C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EE9BA5AA145C2D89000D5E0C /* DDDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DDDocument.xcdatamodel; sourceTree = "<group>"; };
+		EE9BA5B1145C2E38000D5E0C /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		EE9BA5B2145C2E38000D5E0C /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		EE9BA5BA145CD101000D5E0C /* DDOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDOutlineViewController.h; sourceTree = "<group>"; };
+		EE9BA5BB145CD101000D5E0C /* DDOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDOutlineViewController.m; sourceTree = "<group>"; };
+		EE9BA5BD145CD224000D5E0C /* DDOutlineViewControllerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDOutlineViewControllerObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9BA587145C2D89000D5E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9BA58F145C2D89000D5E0C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9BA57F145C2D89000D5E0C = {
+			isa = PBXGroup;
+			children = (
+				EE9BA594145C2D89000D5E0C /* DDOutlineView */,
+				EE9BA58D145C2D89000D5E0C /* Frameworks */,
+				EE9BA58B145C2D89000D5E0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9BA58B145C2D89000D5E0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BA58A145C2D89000D5E0C /* DDOutlineView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9BA58D145C2D89000D5E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BA58E145C2D89000D5E0C /* Cocoa.framework */,
+				EE9BA590145C2D89000D5E0C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9BA590145C2D89000D5E0C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BA591145C2D89000D5E0C /* AppKit.framework */,
+				EE9BA592145C2D89000D5E0C /* CoreData.framework */,
+				EE9BA593145C2D89000D5E0C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EE9BA594145C2D89000D5E0C /* DDOutlineView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BA5A0145C2D89000D5E0C /* DDDocument.h */,
+				EE9BA5A1145C2D89000D5E0C /* DDDocument.m */,
+				EE9BA5A3145C2D89000D5E0C /* DDDocument.xib */,
+				EE9BA5A6145C2D89000D5E0C /* MainMenu.xib */,
+				EE9BA5A9145C2D89000D5E0C /* DDDocument.xcdatamodeld */,
+				EE9BA5B1145C2E38000D5E0C /* Node.h */,
+				EE9BA5B2145C2E38000D5E0C /* Node.m */,
+				EE9BA595145C2D89000D5E0C /* Supporting Files */,
+				EE9BA5BA145CD101000D5E0C /* DDOutlineViewController.h */,
+				EE9BA5BB145CD101000D5E0C /* DDOutlineViewController.m */,
+				EE9BA5BD145CD224000D5E0C /* DDOutlineViewControllerObject.h */,
+			);
+			path = DDOutlineView;
+			sourceTree = "<group>";
+		};
+		EE9BA595145C2D89000D5E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BA596145C2D89000D5E0C /* DDOutlineView-Info.plist */,
+				EE9BA597145C2D89000D5E0C /* InfoPlist.strings */,
+				EE9BA59A145C2D89000D5E0C /* main.m */,
+				EE9BA59C145C2D89000D5E0C /* DDOutlineView-Prefix.pch */,
+				EE9BA59D145C2D89000D5E0C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9BA589145C2D89000D5E0C /* DDOutlineView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9BA5AE145C2D89000D5E0C /* Build configuration list for PBXNativeTarget "DDOutlineView" */;
+			buildPhases = (
+				EE9BA586145C2D89000D5E0C /* Sources */,
+				EE9BA587145C2D89000D5E0C /* Frameworks */,
+				EE9BA588145C2D89000D5E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDOutlineView;
+			productName = DDOutlineView;
+			productReference = EE9BA58A145C2D89000D5E0C /* DDOutlineView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9BA581145C2D89000D5E0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cactuslab Limited";
+			};
+			buildConfigurationList = EE9BA584145C2D89000D5E0C /* Build configuration list for PBXProject "DDOutlineView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE9BA57F145C2D89000D5E0C;
+			productRefGroup = EE9BA58B145C2D89000D5E0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9BA589145C2D89000D5E0C /* DDOutlineView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9BA588145C2D89000D5E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9BA599145C2D89000D5E0C /* InfoPlist.strings in Resources */,
+				EE9BA59F145C2D89000D5E0C /* Credits.rtf in Resources */,
+				EE9BA5A5145C2D89000D5E0C /* DDDocument.xib in Resources */,
+				EE9BA5A8145C2D89000D5E0C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9BA586145C2D89000D5E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9BA59B145C2D89000D5E0C /* main.m in Sources */,
+				EE9BA5A2145C2D89000D5E0C /* DDDocument.m in Sources */,
+				EE9BA5AB145C2D89000D5E0C /* DDDocument.xcdatamodeld in Sources */,
+				EE9BA5B3145C2E38000D5E0C /* Node.m in Sources */,
+				EE9BA5BC145CD101000D5E0C /* DDOutlineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE9BA597145C2D89000D5E0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9BA598145C2D89000D5E0C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE9BA59D145C2D89000D5E0C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9BA59E145C2D89000D5E0C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EE9BA5A3145C2D89000D5E0C /* DDDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9BA5A4145C2D89000D5E0C /* en */,
+			);
+			name = DDDocument.xib;
+			sourceTree = "<group>";
+		};
+		EE9BA5A6145C2D89000D5E0C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9BA5A7145C2D89000D5E0C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9BA5AC145C2D89000D5E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE9BA5AD145C2D89000D5E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE9BA5AF145C2D89000D5E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDOutlineView/DDOutlineView-Prefix.pch";
+				INFOPLIST_FILE = "DDOutlineView/DDOutlineView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE9BA5B0145C2D89000D5E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDOutlineView/DDOutlineView-Prefix.pch";
+				INFOPLIST_FILE = "DDOutlineView/DDOutlineView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9BA584145C2D89000D5E0C /* Build configuration list for PBXProject "DDOutlineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9BA5AC145C2D89000D5E0C /* Debug */,
+				EE9BA5AD145C2D89000D5E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9BA5AE145C2D89000D5E0C /* Build configuration list for PBXNativeTarget "DDOutlineView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9BA5AF145C2D89000D5E0C /* Debug */,
+				EE9BA5B0145C2D89000D5E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE9BA5A9145C2D89000D5E0C /* DDDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE9BA5AA145C2D89000D5E0C /* DDDocument.xcdatamodel */,
+			);
+			currentVersion = EE9BA5AA145C2D89000D5E0C /* DDDocument.xcdatamodel */;
+			path = DDDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE9BA581145C2D89000D5E0C /* Project object */;
+}
